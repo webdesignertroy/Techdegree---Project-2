@@ -247,6 +247,11 @@ footer p, .wide{
 	padding: 0 0 4em 0;
 }
 
+.portfolio-padding{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 footer p{
 	max-width: 550px;
 	margin: 0 auto;
