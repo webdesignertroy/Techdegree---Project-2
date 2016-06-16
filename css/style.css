@@ -58,6 +58,27 @@ footer {
 	box-shadow: 0 1px 10px rgba(0,0,0, 0.2);
 	width: 100%;
 }
+#menu-reveal {
+  height: 50px;
+  background: #2a7cbd;
+  cursor: pointer;
+  position: relative;
+  display: none; 
+  margin: 5px 1em;
+}
+#menu-reveal span:after {
+  content: "";
+  background: url("../img/hamburger-31x25.png");
+  -webkit-opactiy: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  height: 25px;
+  width: 31px;
+  z-index: 1; 
+}
 .name, .main-nav {
 	text-align: center;
 	font-weight: 700;
